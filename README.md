@@ -1,2 +1,2 @@
-# 30DaysOfCod_JavaScript
+# 30DaysOfCode_JavaScript
 Thirty days with JavaScript
