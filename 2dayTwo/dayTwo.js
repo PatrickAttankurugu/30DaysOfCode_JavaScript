@@ -45,4 +45,35 @@
 //   console.log("That is a very weak password");
 // }
 
-//BREAK AND CONTINUE
+//SWITCH STATEMENTS
+//traditionally, you would use if statements for the problem below
+// const grade = "D";
+// if (grade == "A") {
+// } else if (grade == "B") {
+// } else if (grade == "C") {
+// } else if (grade == "D") {
+// } else if (grade == "E") {
+// } else {
+// }
+
+//But this is the implementation in switch statements
+const grade = "D";
+switch (grade) {
+  case "A":
+    console.log("You got an A");
+    break;
+  case "B":
+    console.log("You got a B");
+    break;
+  case "C":
+    console.log("You got a C");
+    break;
+  case "D":
+    console.log("You got a D");
+    break;
+  case "E":
+    console.log("You got an E");
+    break;
+  default:
+    console.log("Not a valid grade");
+}
